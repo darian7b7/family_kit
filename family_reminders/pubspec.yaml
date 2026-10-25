@@ -1,0 +1,19 @@
+name: family_reminders
+description: "Local reminders for the app family: time zone setup, permission, scheduling."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^22.3.2
+  flutter_timezone: ^5.1.1
+  timezone: ^0.11.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
